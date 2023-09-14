@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-SampleAuth-861744d2-e2b2-48b6-bf0d-566078ee7f8c</UserSecretsId>
   </PropertyGroup>
