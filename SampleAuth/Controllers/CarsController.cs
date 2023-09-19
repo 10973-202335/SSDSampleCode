@@ -11,7 +11,7 @@ using SampleAuth.Models;
 
 namespace SampleAuth.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Member,Admin")]
     public class CarsController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -69,6 +69,7 @@ namespace SampleAuth.Controllers
         }
 
         // GET: Cars/Edit/5
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Car == null)
@@ -120,7 +121,8 @@ namespace SampleAuth.Controllers
         }
 
         // GET: Cars/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        [Authorize(Policy = "MohawkAdmin")]
+         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Car == null)
             {
