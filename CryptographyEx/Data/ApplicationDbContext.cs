@@ -11,5 +11,6 @@ namespace CryptographyEx.Data
         {
         }
         public DbSet<CryptographyEx.Models.Password>? Password { get; set; }
+        public DbSet<CryptographyEx.Models.BankAccount>? BankAccount { get; set; }
     }
 }
