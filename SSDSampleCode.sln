@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonAttacks", "CommonAtta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProactiveControls", "ProactiveControls\ProactiveControls.csproj", "{F51B564F-4409-4629-8969-886647CDD536}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptographyEx", "CryptographyEx\CryptographyEx.csproj", "{1795C1A1-4552-4DD7-B25B-0AD8805105DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptographyEx", "CryptographyEx\CryptographyEx.csproj", "{1795C1A1-4552-4DD7-B25B-0AD8805105DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddHTTPS", "AddHTTPS\AddHTTPS.csproj", "{EF545612-1433-4111-AB70-133742CE5FFE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1795C1A1-4552-4DD7-B25B-0AD8805105DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1795C1A1-4552-4DD7-B25B-0AD8805105DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1795C1A1-4552-4DD7-B25B-0AD8805105DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF545612-1433-4111-AB70-133742CE5FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF545612-1433-4111-AB70-133742CE5FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF545612-1433-4111-AB70-133742CE5FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF545612-1433-4111-AB70-133742CE5FFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
